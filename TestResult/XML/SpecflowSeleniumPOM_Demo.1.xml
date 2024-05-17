@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="SpecflowProject.dll" fullname="C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0\SpecflowProject.dll" runstate="Runnable" testcasecount="6" result="Skipped" label="Ignored" total="6" passed="4" failed="0" inconclusive="0" skipped="2" asserts="2" engine-version="3.12.0.0" clr-version="6.0.26" start-time="2024-02-03 03:34:31Z" end-time="2024-02-03 03:35:56Z" duration="84.263987">
+  <command-line><![CDATA[C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0\testhost.dll --port 61982 --endpoint 127.0.0.1:061982 --role client --parentprocessid 11728 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>SpecflowProject.Features._1_BookSearchFeature.SearchBooksInBookstore("GIT","Git Pocket Guide","Richard E. Silverman","O'Reilly Media",null)</test>
+      <test>SpecflowProject.Features._1_BookSearchFeature.SearchBooksInBookstore("Web Api","Designing Evolvable Web APIs with ASP.NET","Glenn Block et al.","O'Reilly Media",null)</test>
+      <test>SpecflowProject.Features._2_LoginWithInvalidUserFeature.LoginToTheSystemWithNonExistingUser</test>
+      <test>SpecflowProject.Features._3_RegisterFeature.RegisterANewCustomer</test>
+      <test>SpecflowProject.Features._4_LoginWithValidUserFeature.LoginToTheSystemWithValidUser</test>
+      <test>SpecflowProject.Features._5_DeleteUserFeature.DeleteUser</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1013" name="SpecflowProject.dll" fullname="C:/Users/suban/source/repos/SpecflowProject/SpecflowProject/bin/Debug/net6.0/SpecflowProject.dll" runstate="Runnable" testcasecount="6" result="Skipped" label="Ignored" site="Child" start-time="2024-02-03T03:34:32.0013278Z" end-time="2024-02-03T03:35:56.2141698Z" duration="84.212701" total="6" passed="4" failed="0" warnings="0" inconclusive="0" skipped="2" asserts="2">
+    <environment framework-version="3.13.2.0" clr-version="6.0.26" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0" machine-name="DESKTOP-H6DCBC9" user="suban" user-domain="DESKTOP-H6DCBC9" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="983906638" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="11488" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <reason>
+      <message><![CDATA[One or more child tests were ignored]]></message>
+    </reason>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="SpecflowProject_NUnitAssemblyHooks" classname="SpecflowProject_NUnitAssemblyHooks" runstate="Runnable" testcasecount="6" result="Skipped" label="Ignored" site="Child" start-time="2024-02-03T03:34:32.0147986Z" end-time="2024-02-03T03:35:56.2140482Z" duration="84.199261" total="6" passed="4" failed="0" warnings="0" inconclusive="0" skipped="2" asserts="2">
+      <reason>
+        <message><![CDATA[One or more child tests were ignored]]></message>
+      </reason>
+      <output><![CDATA[-> Loading plugin C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0\SpecflowProject.dll
+-> Using default config
+-> LivingDocPlugin: Output generated in: C:\Users\suban\source\repos\SpecflowProject\SpecflowProject\bin\Debug\net6.0\TestExecution.json
+]]></output>
+      <test-suite type="TestSuite" id="0-1014" name="SpecflowProject" fullname="SpecflowProject" runstate="Runnable" testcasecount="6" result="Skipped" label="Ignored" site="Child" start-time="2024-02-03T03:34:32.5836939Z" end-time="2024-02-03T03:35:55.5251511Z" duration="82.941457" total="6" passed="4" failed="0" warnings="0" inconclusive="0" skipped="2" asserts="2">
+        <reason>
+          <message><![CDATA[One or more child tests were ignored]]></message>
+        </reason>
+        <test-suite type="TestSuite" id="0-1015" name="Features" fullname="SpecflowProject.Features" runstate="Runnable" testcasecount="6" result="Skipped" label="Ignored" site="Child" start-time="2024-02-03T03:34:32.5838731Z" end-time="2024-02-03T03:35:55.5242599Z" duration="82.940387" total="6" passed="4" failed="0" warnings="0" inconclusive="0" skipped="2" asserts="2">
+          <reason>
+            <message><![CDATA[One or more child tests were ignored]]></message>
+          </reason>
+          <test-suite type="TestFixture" id="0-1001" name="_1_BookSearchFeature" fullname="SpecflowProject.Features._1_BookSearchFeature" classname="SpecflowProject.Features._1_BookSearchFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2024-02-03T03:34:32.5840652Z" end-time="2024-02-03T03:35:00.5208059Z" duration="27.936742" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="1.BookSearch" />
+            </properties>
+            <test-suite type="ParameterizedMethod" id="0-1004" name="SearchBooksInBookstore" fullname="SpecflowProject.Features._1_BookSearchFeature.SearchBooksInBookstore" classname="SpecflowProject.Features._1_BookSearchFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2024-02-03T03:34:32.5936928Z" end-time="2024-02-03T03:35:00.5158569Z" duration="27.922165" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="Description" value="Search Books in Bookstore" />
+                <property name="Category" value="regression" />
+                <property name="Category" value="search" />
+              </properties>
+              <test-case id="0-1002" name="SearchBooksInBookstore(&quot;GIT&quot;,&quot;Git Pocket Guide&quot;,&quot;Richard E. Silverman&quot;,&quot;O'Reilly Media&quot;,null)" fullname="SpecflowProject.Features._1_BookSearchFeature.SearchBooksInBookstore(&quot;GIT&quot;,&quot;Git Pocket Guide&quot;,&quot;Richard E. Silverman&quot;,&quot;O'Reilly Media&quot;,null)" methodname="SearchBooksInBookstore" classname="SpecflowProject.Features._1_BookSearchFeature" runstate="Runnable" seed="456158837" result="Passed" start-time="2024-02-03T03:34:32.5938457Z" end-time="2024-02-03T03:34:47.0953460Z" duration="14.501696" asserts="0">
+                <output><![CDATA[Given I navigate to Bookstore application
+-> done: LoginSteps.GivenINavigateToBookstoreApplication() (4.2s)
+And I click on Book Store Application
+-> done: BooksSteps.GivenIClickOnBookStoreApplication() (0.9s)
+When I fill up the search box
+  --- table step argument ---
+  | Keyword |
+  | GIT     |
+-> done: BooksSteps.WhenIFillUpTheSearchBox(<table>) (3.9s)
+Then following books should be displayed in results
+  --- table step argument ---
+  | Title            | Author               | Publisher      |
+  | Git Pocket Guide | Richard E. Silverman | O'Reilly Media |
+-> done: BooksSteps.ThenFollowingBooksShouldBeDisplayedInResults(<table>) (0.1s)
+]]></output>
+              </test-case>
+              <test-case id="0-1003" name="SearchBooksInBookstore(&quot;Web Api&quot;,&quot;Designing Evolvable Web APIs with ASP.NET&quot;,&quot;Glenn Block et al.&quot;,&quot;O'Reilly Media&quot;,null)" fullname="SpecflowProject.Features._1_BookSearchFeature.SearchBooksInBookstore(&quot;Web Api&quot;,&quot;Designing Evolvable Web APIs with ASP.NET&quot;,&quot;Glenn Block et al.&quot;,&quot;O'Reilly Media&quot;,null)" methodname="SearchBooksInBookstore" classname="SpecflowProject.Features._1_BookSearchFeature" runstate="Runnable" seed="1535269478" result="Passed" start-time="2024-02-03T03:34:47.0988925Z" end-time="2024-02-03T03:35:00.5118140Z" duration="13.412922" asserts="0">
+                <output><![CDATA[Given I navigate to Bookstore application
+-> done: LoginSteps.GivenINavigateToBookstoreApplication() (4.0s)
+And I click on Book Store Application
+-> done: BooksSteps.GivenIClickOnBookStoreApplication() (0.9s)
+When I fill up the search box
+  --- table step argument ---
+  | Keyword |
+  | Web Api |
+-> done: BooksSteps.WhenIFillUpTheSearchBox(<table>) (4.0s)
+Then following books should be displayed in results
+  --- table step argument ---
+  | Title                                     | Author             | Publisher      |
+  | Designing Evolvable Web APIs with ASP.NET | Glenn Block et al. | O'Reilly Media |
+-> done: BooksSteps.ThenFollowingBooksShouldBeDisplayedInResults(<table>) (0.1s)
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1005" name="_2_LoginWithInvalidUserFeature" fullname="SpecflowProject.Features._2_LoginWithInvalidUserFeature" classname="SpecflowProject.Features._2_LoginWithInvalidUserFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2024-02-03T03:35:00.5246264Z" end-time="2024-02-03T03:35:25.3284490Z" duration="24.803822" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="2.LoginWithInvalidUser" />
+            </properties>
+            <test-case id="0-1006" name="LoginToTheSystemWithNonExistingUser" fullname="SpecflowProject.Features._2_LoginWithInvalidUserFeature.LoginToTheSystemWithNonExistingUser" methodname="LoginToTheSystemWithNonExistingUser" classname="SpecflowProject.Features._2_LoginWithInvalidUserFeature" runstate="Runnable" seed="817740067" result="Passed" start-time="2024-02-03T03:35:00.5257597Z" end-time="2024-02-03T03:35:25.3279566Z" duration="24.802197" asserts="1">
+              <properties>
+                <property name="Description" value="Login to the system with non existing User" />
+                <property name="Category" value="regression" />
+                <property name="Category" value="login" />
+              </properties>
+              <output><![CDATA[Given I navigate to Bookstore application
+-> done: LoginSteps.GivenINavigateToBookstoreApplication() (3.0s)
+And I click on Book Store Application
+-> done: BooksSteps.GivenIClickOnBookStoreApplication() (0.9s)
+And I click on Login from Menu List
+-> done: LoginSteps.GivenIClickOnLoginFromMenuList() (5.7s)
+And I enter username and password as following
+  --- table step argument ---
+  | Username  | Password       |
+  | testuser1 | passwordtest1! |
+-> done: LoginSteps.GivenIEnterUsernameAndPasswordAsFollowing(<table>) (0.4s)
+When I click login button
+-> done: LoginSteps.WhenIClickLoginButton() (3.6s)
+Then Invalid Username or Password Message should be displayed
+-> done: LoginSteps.ThenInvalidUsernameOrPasswordMessageShouldBeDisplayed() (5.6s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1007" name="_3_RegisterFeature" fullname="SpecflowProject.Features._3_RegisterFeature" classname="SpecflowProject.Features._3_RegisterFeature" runstate="Runnable" testcasecount="1" result="Skipped" label="Ignored" site="Child" start-time="2024-02-03T03:35:25.3285167Z" end-time="2024-02-03T03:35:25.3332458Z" duration="0.004730" total="1" passed="0" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="0">
+            <properties>
+              <property name="Description" value="3.Register" />
+            </properties>
+            <reason>
+              <message><![CDATA[One or more child tests were ignored]]></message>
+            </reason>
+            <test-case id="0-1008" name="RegisterANewCustomer" fullname="SpecflowProject.Features._3_RegisterFeature.RegisterANewCustomer" methodname="RegisterANewCustomer" classname="SpecflowProject.Features._3_RegisterFeature" runstate="Ignored" seed="1784367387" result="Skipped" label="Ignored" start-time="2024-02-03T03:35:25.3298189Z" end-time="2024-02-03T03:35:25.3326188Z" duration="0.002799" asserts="0">
+              <properties>
+                <property name="Description" value="Register a new customer" />
+                <property name="_SKIPREASON" value="Ignored scenario" />
+                <property name="Category" value="regression" />
+                <property name="Category" value="register" />
+              </properties>
+              <reason>
+                <message><![CDATA[Ignored scenario]]></message>
+              </reason>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1009" name="_4_LoginWithValidUserFeature" fullname="SpecflowProject.Features._4_LoginWithValidUserFeature" classname="SpecflowProject.Features._4_LoginWithValidUserFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2024-02-03T03:35:25.3333631Z" end-time="2024-02-03T03:35:55.5157436Z" duration="30.182381" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="4.LoginWithValidUser" />
+            </properties>
+            <test-case id="0-1010" name="LoginToTheSystemWithValidUser" fullname="SpecflowProject.Features._4_LoginWithValidUserFeature.LoginToTheSystemWithValidUser" methodname="LoginToTheSystemWithValidUser" classname="SpecflowProject.Features._4_LoginWithValidUserFeature" runstate="Runnable" seed="1851829773" result="Passed" start-time="2024-02-03T03:35:25.3341614Z" end-time="2024-02-03T03:35:55.5153442Z" duration="30.181183" asserts="1">
+              <properties>
+                <property name="Description" value="Login to the system with valid user" />
+                <property name="Category" value="regression" />
+                <property name="Category" value="login" />
+              </properties>
+              <output><![CDATA[Given I navigate to Bookstore application
+-> done: LoginSteps.GivenINavigateToBookstoreApplication() (2.9s)
+And I click on Book Store Application
+-> done: BooksSteps.GivenIClickOnBookStoreApplication() (1.3s)
+And I click on Login from Menu List
+-> done: LoginSteps.GivenIClickOnLoginFromMenuList() (5.7s)
+And I enter username and password
+-> done: LoginSteps.GivenIEnterUsernameAndPassword() (5.4s)
+When I click login button
+-> done: LoginSteps.WhenIClickLoginButton() (3.7s)
+Then User should be redirected to landing page
+-> done: ProfileSteps.ThenUserShouldBeRedirectedToLandingPage() (6.8s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1011" name="_5_DeleteUserFeature" fullname="SpecflowProject.Features._5_DeleteUserFeature" classname="SpecflowProject.Features._5_DeleteUserFeature" runstate="Runnable" testcasecount="1" result="Skipped" label="Ignored" site="Child" start-time="2024-02-03T03:35:55.5158077Z" end-time="2024-02-03T03:35:55.5201311Z" duration="0.004325" total="1" passed="0" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="0">
+            <properties>
+              <property name="Description" value="5.DeleteUser" />
+            </properties>
+            <reason>
+              <message><![CDATA[One or more child tests were ignored]]></message>
+            </reason>
+            <test-case id="0-1012" name="DeleteUser" fullname="SpecflowProject.Features._5_DeleteUserFeature.DeleteUser" methodname="DeleteUser" classname="SpecflowProject.Features._5_DeleteUserFeature" runstate="Ignored" seed="389424104" result="Skipped" label="Ignored" start-time="2024-02-03T03:35:55.5170292Z" end-time="2024-02-03T03:35:55.5170996Z" duration="0.000070" asserts="0">
+              <properties>
+                <property name="Description" value="Delete user" />
+                <property name="_SKIPREASON" value="Ignored scenario" />
+                <property name="Category" value="regression" />
+                <property name="Category" value="delete" />
+              </properties>
+              <reason>
+                <message><![CDATA[Ignored scenario]]></message>
+              </reason>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

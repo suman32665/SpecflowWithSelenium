@@ -1,0 +1,14 @@
+﻿<RunSettings>
+  <!--<TestRunParameters>
+    <Parameter name="browser" value="chrome" />
+    <Parameter name="url" value="https://parabank.parasoft.com/parabank/index.htm" />
+    <Parameter name="username" value="sumantest" />
+    <Parameter name="pw" value="passwordtest" />
+  </TestRunParameters>-->
+  <NUnit>
+	  <!--https://docs.nunit.org/articles/vs-test-adapter/Tips-And-Tricks.html-->
+	  <TestOutputXml>C:\TestResult\XML</TestOutputXml>
+    <OutputXmlFolderMode>RelativeToResultDirectory</OutputXmlFolderMode>
+    <NewOutputXmlFileForEachRun>true</NewOutputXmlFileForEachRun>
+  </NUnit>
+</RunSettings>
